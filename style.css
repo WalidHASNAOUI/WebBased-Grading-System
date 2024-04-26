@@ -1,0 +1,63 @@
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.university {
+    font-size: 35px;
+}
+
+.grading {
+    font-size: 24px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('brookes.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.867); /* Opacity */
+    border-radius: 10px;
+    border: 2px solid #000608;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #879187;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e83e8c;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
